@@ -242,5 +242,50 @@
             "Нет совпадений, есть аналог",
             "Нет совпадений, нет аналогов"
         ]
+    },
+    "Текстовое поле": {
+        "Язык": {
+            "En": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "Ru": "Римский император Константин I Великий по достоинству оценил выгодное местоположение приморского Византия.",
+            "Ar": "وضع ابن الهيثم تصور واضح للعلاقة بي",
+            "Cn": "北京位於華北平原的西北边缘，背靠燕山，有永定河流经老城西南",
+            "Mix": "Test, Кириллица, 未来指挥家",
+            "Unicode": "Iñtërnâtiônàlizætiøn☃💪"
+        },
+        "E-mail": {
+            "Positive": {
+                "gmail": "email@gmail.com",
+                "mail": "email@mail.ru",
+                "yandex": "email@yandex.com",
+                "Точка в адресе": "firstname.lastname@gmail.com",
+                "Поддомен": "email@subdomain.gmail.com",
+                "Плюс в адресе": "firstname+lastname@gmail.com",
+                "Нумерация в имени": "1234567890@gmail.com",
+                "Тире в домене": "email@domain-one.com",
+                "Короткий емейл": "a@a.ru",
+                "Длинный емейл": "32emailemailemailemailemailemail@gmail.com"
+            },
+            "Negative": {
+                "Отсутствует верхний домен": "email@gmail.",
+                "Отсутствует нижний домен": "email@.com",
+                "Отсутствует @": "email.gmail.com",
+                "Отсутствует адрес": "@gmail.com",
+                "Мусорный емейл": "#@%^%#$@#$@#.com",
+                "@@": "email@gmail@gmail.com",
+                "Ведущий спец.символ в имени": "$.email@gmail.com",
+                "Unicode в адресе ": "あ💪@gmail.com",
+                "Ведущий спец.символ в домене": "email@.gmail.com",
+                "Лишние точки": "email@gmail..com",
+                "Пробел в почте": "email@ gmail.com"
+            }
+        },
+        "Размер текста": {
+            "32": "START ips dolor sit amet, FINISH",
+            "64": "START ips dolor sit amet, ips dolor sit amet ips dolorz FINISH",
+            "128": "START ips dolor sit amet, ips dolor sit amet ips dolorz ips dolor sit amet. ips dolor sit amet ips dolorz amet ips dolorz FINISH",
+            "129": "START ipsa dolor sit amet, ips dolor sit amet ips dolorz ips dolor sit amet. ips dolor sit amet ips dolorz amet ips dolorz FINISH",
+            "256": "START ips dolor sit amet, ips dolor sit amet ips dolorz ips dolor sit amet. ips dolor sit amet ips dolorz amet ips dolorz ips dolor sit amet, ips dolor sit amet ips dolorz ips dolor sit amet. ips dolor sit amet ips dolorz amet ips dolorz dolorz saer FINISH",
+            "257": "START ips dolor sit amet, ips dolor sit amet ips dolorz ips dolor sit amet. ips dolor sit amet ips dolorz amet ips dolorz ips dolor sit amet, ips dolor sit amet ips dolorz ips dolor sit amet. ips dolor sit amet ips dolorz amet ips dolorz dolorz saera FINISH"
+        }
     }
 }
