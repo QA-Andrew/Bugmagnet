@@ -243,5 +243,15 @@
       "Нет совпадений, есть аналог",
       "Нет совпадений, нет аналогов"
     ]
-  }
+  },
+      "Текстовое поле": {
+        "Размер текста": {
+            "32": "START ips dolor sit amet, FINISH",
+            "64": "START ips dolor sit amet, ips dolor sit amet ips dolorz FINISH",
+            "128": "START ips dolor sit amet, ips dolor sit amet ips dolorz ips dolor sit amet. ips dolor sit amet ips dolorz amet ips dolorz FINISH",
+            "129": "START ipsa dolor sit amet, ips dolor sit amet ips dolorz ips dolor sit amet. ips dolor sit amet ips dolorz amet ips dolorz FINISH",
+            "256": "START ips dolor sit amet, ips dolor sit amet ips dolorz ips dolor sit amet. ips dolor sit amet ips dolorz amet ips dolorz ips dolor sit amet, ips dolor sit amet ips dolorz ips dolor sit amet. ips dolor sit amet ips dolorz amet ips dolorz dolorz saer FINISH",
+            "257": "START ips dolor sit amet, ips dolor sit amet ips dolorz ips dolor sit amet. ips dolor sit amet ips dolorz amet ips dolorz ips dolor sit amet, ips dolor sit amet ips dolorz ips dolor sit amet. ips dolor sit amet ips dolorz amet ips dolorz dolorz saera FINISH"
+        }
+      }
 }
